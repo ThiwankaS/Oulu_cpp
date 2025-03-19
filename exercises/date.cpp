@@ -27,11 +27,16 @@ class Date {
 		}
 };
 
+//Opeartor overloading
+std::ostream& operator<<(std::ostream& os, const Date& date) {
+	return os << date.getDate();
+}
+
 int main (void)
 {
 	Date a;
-	std::cout << a.getDate() << std::endl;
+	std::cout << a << std::endl;
 	Date d {9, Month::mar, 1988};
-	std::cout << d.getDate() << std::endl;
+	std::cout << d << std::endl;
 	return (0);
 }
