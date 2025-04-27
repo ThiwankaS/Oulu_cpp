@@ -1,0 +1,60 @@
+[32m[INFO][0m[[34mmain.cpp[0m:[34m144[0m] - ---Color problem START---
+[32m[INFO][0m[[34mmain.cpp[0m:[34m163[0m] -  Max load factor : 1
+[32m[INFO][0m[[34mmain.cpp[0m:[34m167[0m] - CORRECT: There are thirteen colours in the map
+[32m[INFO][0m[[34mmain.cpp[0m:[34m178[0m] - CORRECT: Found color: RG_200_B_21
+[32m[INFO][0m[[34mmain.cpp[0m:[34m193[0m] - CORRECT : Color not found
+[32m[INFO][0m[[34mmain.cpp[0m:[34m203[0m] - CORRECT : Did not insert duplicate color
+[32m[INFO][0m[[34mmain.cpp[0m:[34m207[0m] - Bucket count: 13
+[32m[INFO][0m[[34mmain.cpp[0m:[34m208[0m] - Load factor: 1
+[36m[DEBUG][0m[[34mmain.cpp[0m:[34m209[0m] - Virtual points: 4/4
+[32m[INFO][0m[[34mmain.cpp[0m:[34m210[0m] - ---Color problem END---
+
+[32m[INFO][0m[[34mmain.cpp[0m:[34m216[0m] - --- Distance problem START ---
+[32m[INFO][0m[[34mmain.cpp[0m:[34m222[0m] - CORRECT: Nearest color to RED is RED
+[32m[INFO][0m[[34mmain.cpp[0m:[34m233[0m] - CORRECT: Nearest color to GRAY is GRAY
+[32m[INFO][0m[[34mmain.cpp[0m:[34m246[0m] - CORRECT: Nearest color to RGBA(240,240,200,255) is RGBA(255,228,196,255) near to RGBA(255,228,196,255)
+[36m[DEBUG][0m[[34mmain.cpp[0m:[34m256[0m] - Virtual points: 3/3
+[32m[INFO][0m[[34mmain.cpp[0m:[34m257[0m] - --- Distance problem END ---
+
+[32m[INFO][0m[[34mmain.cpp[0m:[34m263[0m] - --- The image problem START ---
+[32m[INFO][0m[[34mmain.cpp[0m:[34m281[0m] - CORRECT : 'img2' is reset
+[32m[INFO][0m[[34mmain.cpp[0m:[34m288[0m] - CORRECT : 'img' should be same after copy
+[36m[DEBUG][0m[[34mmain.cpp[0m:[34m295[0m] - Virtual points: 2/2
+[32m[INFO][0m[[34mmain.cpp[0m:[34m296[0m] - --- The image problem END ---
+
+[32m[INFO][0m[[34mmain.cpp[0m:[34m302[0m] - --- The boxes problem START ---
+[32m[INFO][0m[[34mmain.cpp[0m:[34m57[0m] - CORRECT : File : /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/three_boxes_frame1.png and /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/../three_boxes_frame1.png are same
+[32m[INFO][0m[[34mmain.cpp[0m:[34m57[0m] - CORRECT : File : /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/three_boxes_frame2.png and /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/../three_boxes_frame2.png are same
+[32m[INFO][0m[[34mmain.cpp[0m:[34m57[0m] - CORRECT : File : /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/three_boxes_frame3.png and /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/../three_boxes_frame3.png are same
+[36m[DEBUG][0m[[34mmain.cpp[0m:[34m334[0m] - Virtual points: 3/3
+[32m[INFO][0m[[34mmain.cpp[0m:[34m335[0m] - --- The boxes problem END ---
+
+[32m[INFO][0m[[34mmain.cpp[0m:[34m341[0m] - --- The boxes GIF problem START ---
+[36m[DEBUG][0m[[34mGif.cpp[0m:[34m105[0m] - Global Color palette size: 4
+[32m[INFO][0m[[34mmain.cpp[0m:[34m373[0m] - CORRECT: GIF saved successfully
+[32m[INFO][0m[[34mmain.cpp[0m:[34m57[0m] - CORRECT : File : /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/three_boxes.gif and /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/../three_boxes.gif are same
+[36m[DEBUG][0m[[34mmain.cpp[0m:[34m387[0m] - Virtual points: 2/2
+[32m[INFO][0m[[34mmain.cpp[0m:[34m388[0m] - --- The boxes GIF problem END ---
+
+[32m[INFO][0m[[34mmain.cpp[0m:[34m93[0m] - --- The color reduction problem START ---
+[32m[INFO][0m[[34mImage.cpp[0m:[34m248[0m] - Loading image from file: /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/../tree.png
+[32m[INFO][0m[[34mmain.cpp[0m:[34m97[0m] - Original color count: 1055
+[32m[INFO][0m[[34mmain.cpp[0m:[34m98[0m] - Small image color count: 554
+[32m[INFO][0m[[34mmain.cpp[0m:[34m57[0m] - CORRECT : File : /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/resized_image.png and /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/../resized_image.png are same
+[32m[INFO][0m[[34mmain.cpp[0m:[34m57[0m] - CORRECT : File : /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/resized_smaller_image.png and /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/../resized_smaller_image.png are same
+[32m[INFO][0m[[34mmain.cpp[0m:[34m57[0m] - CORRECT : File : /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/resized_large_image.png and /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/../resized_large_image.png are same
+[32m[INFO][0m[[34mColorPalette.cpp[0m:[34m129[0m] - Reduced color count : 64
+[36m[DEBUG][0m[[34mImage.cpp[0m:[34m164[0m] - ColorPallette&& colorPalette
+[32m[INFO][0m[[34mmain.cpp[0m:[34m57[0m] - CORRECT : File : /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/tree_reduced_colors.png and /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/../tree_reduced_colors.png are same
+[36m[DEBUG][0m[[34mmain.cpp[0m:[34m136[0m] - Virtual points: 4/4
+[32m[INFO][0m[[34mmain.cpp[0m:[34m138[0m] - --- The color reduction problem END ---
+
+Binary files /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/draw_on_tree.gif and /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/../draw_on_tree.gif differ
+[32m[INFO][0m[[34mmain.cpp[0m:[34m394[0m] - --- The draw on image problem START ---
+[32m[INFO][0m[[34mImage.cpp[0m:[34m248[0m] - Loading image from file: /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/tree.png
+[32m[INFO][0m[[34mColorPalette.cpp[0m:[34m129[0m] - Reduced color count : 64
+[32m[INFO][0m[[34mmain.cpp[0m:[34m403[0m] - smallImage size : 200x200 wxh
+[36m[DEBUG][0m[[34mGif.cpp[0m:[34m105[0m] - Global Color palette size: 120
+[32m[INFO][0m[[34mmain.cpp[0m:[34m87[0m] - CORRECT File : /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/draw_on_tree.gif and /home/so_thiwanka/Oulu_cpp/lab/gex07/Pixelmancy_v2/Pixelmancy/data/output/../draw_on_tree.gif are different
+[36m[DEBUG][0m[[34mmain.cpp[0m:[34m476[0m] - Virtual points: 1/1
+[32m[INFO][0m[[34mmain.cpp[0m:[34m477[0m] - --- The draw on image problem END ---
